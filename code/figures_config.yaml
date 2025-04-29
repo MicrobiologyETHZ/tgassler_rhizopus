@@ -1,0 +1,42 @@
+# Configuration file for figure data
+
+figures:
+  Figure_1:
+    panel_i:
+      data_file: "data/Paper_Draft_20250416/Figure_1/Panel_i_j/Data_Load_Germ_S1.xlsx"
+      figure_file: "data/test/Figure_1_panel_i.svg"
+    panel_j:
+      data_file: "data/Paper_Draft_20250416/Figure_1/Panel_i_j/R4_Load_Germ.xlsx"
+      figure_file: "data/test/Figure_1_panel_j.svg"
+  
+  Figure_2:
+    panel_a:
+      data_file: "data/fig2_time_series.csv"
+    panel_b:
+      data_file: "data/fig2_correlation.csv"
+    panel_c:
+      data_file: "data/fig2_boxplot_data.csv"
+
+  Figure_3:
+    panel_a:
+      data_file: "data/fig3_network_data.json"
+    panel_b:
+      data_file: "data/fig3_violin_data.csv"
+    panel_c:
+      data_file: "data/fig3_3d_scatter.csv"
+
+  Figure_4:
+    panel_a:
+      data_file: "data/fig4_regression.csv"
+    panel_b:
+      data_file: "data/fig4_bar_grouped.csv"
+    panel_c:
+      data_file: "data/fig4_pie_chart.csv"
+      
+  Figure_5:
+    panel_a:
+      data_file: "data/fig5_geographical.geojson"
+    panel_b:
+      data_file: "data/fig5_survival_curve.csv"
+    panel_c:
+      data_file: "data/fig5_histogram.csv"

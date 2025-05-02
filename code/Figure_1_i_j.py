@@ -89,7 +89,7 @@ plt.ylabel("")  # Remove y-axis label
 # Tighten layout to prevent overlap
 plt.tight_layout()
 
-save_figure_panel("Figure_1", "panel_i", format='svg', dpi=300)
+save_figure_panel("Figure_1", "panel_i", format='png', dpi=300)
 # Show the plot
 #plt.show()
 
@@ -155,7 +155,7 @@ plt.xlabel("")  # Remove x-axis label
 
 # Tighten layout to prevent overlap
 plt.tight_layout()
-save_figure_panel("Figure_1", "panel_j", format='svg', dpi=300)
+save_figure_panel("Figure_1", "panel_j", format='png', dpi=300)
 # Show the plot
 #plt.show()
 

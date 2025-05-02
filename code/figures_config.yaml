@@ -4,34 +4,81 @@ figures:
   Figure_1:
     panel_i:
       data_file: "data/Paper_Draft_20250416/Figure_1/Panel_i_j/Data_Load_Germ_S1.xlsx"
-      figure_file: "data/test/Figure_1_panel_i.svg"
+      figure_file: "data/test/Figure_1_panel_i"
     panel_j:
       data_file: "data/Paper_Draft_20250416/Figure_1/Panel_i_j/R4_Load_Germ.xlsx"
-      figure_file: "data/test/Figure_1_panel_j.svg"
+      figure_file: "data/test/Figure_1_panel_j"
   
   Figure_2:
-    panel_a:
-      data_file: "data/fig2_time_series.csv"
     panel_b:
-      data_file: "data/fig2_correlation.csv"
+      data_file: "data/Paper_Draft_20250416/Figure_2/Figure_b_c_d/Germination_Abundances_Fitness_data.xlsx"
+      figure_file: "data/test/Figure_2_panel_b"
     panel_c:
-      data_file: "data/fig2_boxplot_data.csv"
-
+      figure_file: "data/test/Figure_2_panel_c"
+    panel_d:
+      figure_file: "data/test/Figure_2_panel_d"
+    panel_b_c_d_legend:
+      figure_file: "data/test/Figure_2_legend"
+    panel_e:
+      data_file: "data/Paper_Draft_20250416/Figure_2/Figure_e_f/Figure_e_f_data.xlsx"
+      figure_file: "data/test/Figure_2_panel_e"
+    panel_e_legend:
+      figure_file: "data/test/Figure_2_panel_e_legend"
+    panel_f:
+      figure_file: "data/test/Figure_2_panel_f"
+    panel_f_legend:
+      figure_file: "data/test/Figure_2_panel_f_legend"
+    
   Figure_3:
-    panel_a:
-      data_file: "data/fig3_network_data.json"
     panel_b:
-      data_file: "data/fig3_violin_data.csv"
+      data_file: "data/Paper_Draft_20250416/Figure_3/Panel_b_c_d/Figure_3_b.csv"
+      figure_file: "data/test/Figure_3_panel_b"
     panel_c:
-      data_file: "data/fig3_3d_scatter.csv"
+      data_file: "data/Paper_Draft_20250416/Figure_3/Panel_b_c_d/Figure_3_c.csv"
+      figure_file: "data/test/Figure_3_panel_c"
+    panel_d:
+      data_file: "data/Paper_Draft_20250416/Figure_3/Panel_b_c_d/Figure_3_d.csv"
+      figure_file: "data/test/Figure_3_panel_d"
 
   Figure_4:
+    metadata:
+      data_file: "data/Paper_Draft_20250416/Figure_4/05-06-24-24TG06-metadata_woMR.csv"
     panel_a:
-      data_file: "data/fig4_regression.csv"
+      data_file: "data/Paper_Draft_20250416/Figure_4/05-06-24-24TG06-vsd_woMR.csv"
+      figure_file: "data/test/Figure_4_panel_a"
+    panel_b_part1:
+      data_file: "data/Paper_Draft_20250416/Figure_4/nDEG_rp_R10.csv"
+    panel_b_part2:
+      data_file: "data/Paper_Draft_20250416/Figure_4/nDEG_rp_R20.csv"
     panel_b:
-      data_file: "data/fig4_bar_grouped.csv"
-    panel_c:
-      data_file: "data/fig4_pie_chart.csv"
+      figure_file: "data/test/Figure_4_panel_b"
+    panel_c_up:
+      figure_file: "data/test/Figure_4_panel_c_up"
+    panel_c_up_top10: 
+      figure_file: "data/test/Figure_4_panel_c_up_top10"
+    panel_c_up_colorbar:
+      figure_file: "data/test/Figure_4_panel_c_up_colorbar"
+    panel_c_up_legend:
+      figure_file: "data/test/Figure_4_panel_c_up_legend"
+    panel_c_down:
+      figure_file: "data/test/Figure_4_panel_c_down"
+    panel_c_down_legend:
+      figure_file: "data/test/Figure_4_panel_c_down_legend"
+    panel_c_down_top10:
+      figure_file: "data/test/Figure_4_panel_c_down_top10"
+    panel_c_down_colorbar:
+      figure_file: "data/test/Figure_4_panel_c_down_colorbar"
+    panel_d_part1:
+      data_file: "data/Paper_Draft_20250416/Figure_4/Dseq2_Output_Files/2024-06-05_24TG06_Rp_R10_pos_vs_pIND_l0a0.01_results.csv"
+    panel_d_part2: 
+      data_file: "data/Paper_Draft_20250416/Figure_4/Dseq2_Output_Files/2024-06-05_24TG06_Rp_R20_pos_vs_pIND_l0a0.01_results.csv"
+    panel_d:
+      figure_file: "data/test/Figure_4_panel_d"
+    panel_d_color_legend:
+      figure_file: "data/test/Figure_4_panel_d_color_legend"
+    panel_d_bubble_legend:
+      figure_file: "data/test/Figure_4_panel_d_bubble_legend"
+
       
   Figure_5:
     panel_a:

@@ -4,11 +4,8 @@ Created on Mon Apr 14 17:33:43 2025
 
 @author: tgassler
 """
-
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-import numpy as np
 from utilities import load_figure_data, save_figure_panel
 # ========== USER SETTINGS FOR STYLING ==========
 width_mm = 40   # figure width in mm
@@ -24,12 +21,8 @@ mpl.rcParams['font.family'] = font_family
 plt.rcParams.update({'font.size': font_size})
 
 # ========== READ THE CONSOLIDATED DATA ========== 
-#df_results = pd.read_csv("Figure_3_c.csv")
-df_results = load_figure_data("Figure_3", "panel_c")
 
-# ========== OPTIONAL: PRINT THE LOADED DATA ==========
-print("Loaded Data for Plotting:")
-print(df_results)
+df_results = load_figure_data("Figure_3", "panel_c")
 
 # ========== DEFINE CONDITION ORDER & COLORS ==========
 conditions_list = ["NH strain", "R2 B+", "R11 B+", "R20 B+"]
@@ -47,4 +40,4 @@ plt.ylabel('Germination Rate (%)')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 save_figure_panel("Figure_3", "panel_c", format='png')
-#plt.show()
+# plt.show()

@@ -5,8 +5,6 @@ Created on Mon Apr 14 17:34:21 2025
 @author: tgassler
 """
 
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import mannwhitneyu
@@ -29,7 +27,6 @@ mpl.rcParams['font.family'] = font_family
 plt.rcParams.update({'font.size': font_size})
 
 # ========== 1) READ SOURCE DATA FROM CSV ==========
-#df_all_spores = pd.read_csv("Figure_3_d.csv")
 df_all_spores = load_figure_data("Figure_3", "panel_d")
 
 # ========== 2) MANN-WHITNEY TESTS (Yes vs. No FOR EACH CONDITION) ==========
@@ -40,7 +37,6 @@ for condition in unique_conditions:
     df_cond = df_all_spores[df_all_spores['Condition'] == condition]
     growing_vals = df_cond[df_cond['Growth Status'] == 'Yes']['Initial Intensity']
     nongrowing_vals = df_cond[df_cond['Growth Status'] == 'No']['Initial Intensity']
-    
     # Ensure both sets are non-empty before testing
     if len(growing_vals) > 0 and len(nongrowing_vals) > 0:
         _, p_val = mannwhitneyu(growing_vals, nongrowing_vals)
@@ -68,7 +64,6 @@ if len(unique_conditions) == 1:
 # ========== 4) PLOT BOX + STRIP FOR EACH CONDITION ==========
 for i, condition in enumerate(unique_conditions):
     df_cond = df_all_spores[df_all_spores['Condition'] == condition]
-    
     # Boxplot
     sns.boxplot(
         x='Growth Status',
@@ -116,4 +111,4 @@ axes[-1].yaxis.set_major_formatter(formatter)  # e.g., apply to the last subplot
 # Increase top margin so titles aren’t clipped
 plt.tight_layout(rect=[0, 0, 1, 1])
 save_figure_panel("Figure_3", 'panel_d', format='png')
-#plt.show()
+# plt.show()

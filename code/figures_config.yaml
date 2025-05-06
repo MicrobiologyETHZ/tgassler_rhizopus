@@ -18,7 +18,7 @@ figures:
     panel_d:
       figure_file: "data/test/Figure_2_panel_d"
     panel_b_c_d_legend:
-      figure_file: "data/test/Figure_2_legend"
+      figure_file: "data/test/Figure_2_b_c_d_legend"
     panel_e:
       data_file: "data/Paper_Draft_20250416/Figure_2/Figure_e_f/Figure_e_f_data.xlsx"
       figure_file: "data/test/Figure_2_panel_e"
@@ -79,11 +79,9 @@ figures:
     panel_d_bubble_legend:
       figure_file: "data/test/Figure_4_panel_d_bubble_legend"
 
-      
   Figure_5:
-    panel_a:
-      data_file: "data/fig5_geographical.geojson"
     panel_b:
-      data_file: "data/fig5_survival_curve.csv"
-    panel_c:
-      data_file: "data/fig5_histogram.csv"
+      data_file: "data/Paper_Draft_20250416/Figure_5/2025-01-24_24TG06_Rp_R20_pos_vs_Rp_R10_pos_l0a0.01_results.csv"
+      figure_file: "data/test/Figure_5_panel_b"
+
+fasta_path: "/Users/ansintsova/polybox/Vorholt/ggiger/braker.faa"

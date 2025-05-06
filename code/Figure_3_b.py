@@ -30,7 +30,6 @@ plt.rcParams.update({'font.size': font_size})
 # ===============================================
 
 # 1) Read the combined data from the single CSV file
-#df_all = pd.read_csv("Figure_3_b.csv")
 df_all = load_figure_data("Figure_3", "panel_b")
 
 # 2) Build a dictionary to hold each condition’s DataFrame
@@ -43,7 +42,6 @@ for cond in unique_conditions:
     # Subset for each condition
     sub_df = df_all[df_all["Condition"] == cond].copy()
     growth_rate_dfs[cond] = sub_df
-    
     # For Kruskal–Wallis and Dunn’s tests
     doubling_times.append(sub_df["doubling_time_min"].to_numpy())
     conditions.extend([cond] * len(sub_df))
@@ -74,7 +72,6 @@ colors = plt.cm.tab20.colors
 for idx, (condition, df_cond) in enumerate(growth_rate_dfs.items()):
     x_vals = np.random.normal(idx, 0.1, size=len(df_cond['doubling_time_min']))
     y_vals = df_cond['doubling_time_min']
-    
     # Scatter plot of individual points
     plt.scatter(
         x_vals, y_vals,
@@ -99,4 +96,4 @@ plt.ylabel('Fungal Doubling Time (min)')
 plt.ylim(70, 275)
 plt.tight_layout()
 save_figure_panel("Figure_3", "panel_b", format='png')
-#plt.show()
+# plt.show()

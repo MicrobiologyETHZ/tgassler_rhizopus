@@ -5,7 +5,6 @@ Created on Tue Apr 15 14:03:13 2025
 @author: tgassler
 """
 
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -16,7 +15,7 @@ from utilities import load_figure_data, save_figure_panel
 width_mm = 40    # main plots: 45 mm wide
 height_mm = 60   # main plots: 70 mm tall
 legend_width_mm = 80  # legend: 80 mm wide
-legend_height_mm = 10 # legend: 30 mm tall
+legend_height_mm = 10  # legend: 30 mm tall
 
 font_size = 8
 font_family = "Arial"
@@ -32,9 +31,7 @@ legend_height_in = legend_height_mm / 25.4
 mpl.rcParams['font.family'] = font_family
 plt.rcParams.update({'font.size': font_size})
 
-# ========== EXAMPLE DATA & FILTERING (Use Your Actual Data) ==========
 
-#df = pd.read_excel('Germination_Abundances_Fitness_data.xlsx', engine='openpyxl')
 df = load_figure_data("Figure_2", "panel_b")
 df['Abundance'] *= 100
 df['Fitness Index'] *= 100
@@ -43,15 +40,17 @@ df['germination rate day 2'] *= 100
 marker_dict = {1: 'o', 2: '^', 3: 's'}
 palette = sns.color_palette("magma", len(df['Round'].unique()))
 
-sns.set(style="ticks")
+sns.set_theme(style="ticks")
 plt.rcParams['axes.facecolor'] = 'white'
 plt.rcParams['axes.edgecolor'] = 'black'
 plt.rcParams['axes.linewidth'] = 0.8
+
 
 def add_full_border(ax):
     for spine in ax.spines.values():
         spine.set_edgecolor('black')
         spine.set_linewidth(0.8)
+
 
 def plot_custom_bars(ax, df, y_column, ylabel, palette, lines=['B++', 'B+']):
     rounds = sorted(df['Round'].unique())
@@ -96,20 +95,16 @@ fig1, ax1 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
 plot_custom_bars(ax1, df, 'germination rate day 2', 'Germination Rate (%)', palette)
 ax = plt.tight_layout()
 save_figure_panel("Figure_2", "panel_b", format='png', dpi=300)
-#fig1.savefig("germination_rate.png", bbox_inches='tight')
 
 fig2, ax2 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
 plot_custom_bars(ax2, df, 'Abundance', 'Positive Fraction (%)', palette)
 plt.tight_layout()
 save_figure_panel("Figure_2", "panel_c", format='png', dpi=300)
-#fig2.savefig("abundance.png", bbox_inches='tight')
 
 fig3, ax3 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
 plot_custom_bars(ax3, df, 'Fitness Index', 'Fitness Index (%)', palette)
 plt.tight_layout()
 save_figure_panel("Figure_2", "panel_d", format='png', dpi=300)
-#fig3.savefig("fitness_index.png", bbox_inches='tight')
-
 
 
 # ========== LEGEND FIGURE (Wider than tall) ==========
@@ -142,8 +137,7 @@ fig_legend.legend(
     borderpad=0.1,      # padding inside the legend box (if frameon=True)
     borderaxespad=0.0,  # space between legend & axes edge
 )
-#fig_legend.savefig("legend.png", bbox_inches='tight')
+
 save_figure_panel("Figure_2", "panel_b_c_d_legend", format='png', dpi=300)
 plt.close(fig_legend)
-
-#plt.show()
+# plt.show()

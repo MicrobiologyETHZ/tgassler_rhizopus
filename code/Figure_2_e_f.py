@@ -5,9 +5,6 @@ Created on Tue Apr 15 13:32:06 2025
 @author: tgassler
 """
 
-# code for Figure 3 e: 
-    
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
@@ -28,9 +25,9 @@ height_in = height_mm / 25.4
 mpl.rcParams['font.family'] = font_family
 mpl.rcParams['font.size'] = font_size
 
-# Load the data
-# file_path = r'Figure_e_f_data.xlsx'
-# df = pd.read_excel(file_path)
+#############
+# Panel 2 e #
+#############
 
 df = load_figure_data("Figure_2", "panel_e")
 
@@ -85,7 +82,7 @@ ax1.set_xticklabels(all_days)
 
 ax1.grid(False)
 plt.tight_layout()
-#plt.show()
+# plt.show()
 save_figure_panel("Figure_2", "panel_e", format='png')
 # Create separate legend figure
 fig_leg = plt.figure(figsize=(1, 1), dpi=dpi_val)
@@ -94,55 +91,37 @@ fig_leg.legend(handles, labels, loc='center', frameon=False, fontsize=font_size,
 fig_leg.canvas.draw()
 plt.axis('off')
 save_figure_panel("Figure_2", "panel_e_legend", format='png')
-#plt.show()
+# plt.show()
 
 
-# code for Figure 2 f: 
+#############
+# Panel 2 f #
+#############
 
-
-
-# ========== USER SETTINGS FOR STYLING ==========
-width_mm = 50    # figure width in mm
-height_mm = 50    # figure height in mm
-font_size = 8     # desired font size
-font_family = "Arial"
-dpi_val = 1200
-
-# Convert mm to inches
-width_in = width_mm / 25.4
-height_in = height_mm / 25.4
-
-# Set global font properties
-mpl.rcParams['font.family'] = font_family
-mpl.rcParams['font.size'] = font_size
-
-# ========== MAIN CODE ==========
-
-
-# 2. Clean up columns & fill NAs
+# Clean up columns & fill NAs
 df.columns = df.columns.str.strip()
 df['True Positives (N)'] = df['True Positives (N)'].fillna(0)
 df['True Positives (Pos)'] = df['True Positives (Pos)'].fillna(0)
 
-# 3. Extract numeric day, define strain
+# Extract numeric day, define strain
 df['Day_num'] = df['Day'].str.extract(r'(\d+)').astype(int)
 df['Strain'] = df['Sample'].apply(
     lambda x: 'R02' if 'R02' in x else ('R20' if 'R20' in x else 'Other')
 )
 
-# 4. Group by (Day_num, Strain)
+# Group by (Day_num, Strain)
 grouped = df.groupby(['Day_num', 'Strain'], as_index=False).agg(
     sumN=('True Positives (N)', 'sum'),     # Number of positives
     sumPos=('True Positives (Pos)', 'sum')  # Total tested
 )
 
-# 5. Calculate fractions (avoid divide-by-zero)
+# Calculate fractions (avoid divide-by-zero)
 grouped['frac_pos'] = np.where(grouped['sumPos'] == 0,
                                0,
                                grouped['sumN'] / grouped['sumPos'])
 grouped['frac_neg'] = 1 - grouped['frac_pos']
 
-# 6. Pivot to separate R02 and R20 columns
+# Pivot to separate R02 and R20 columns
 pivoted = grouped.pivot(index='Day_num', columns='Strain', values=['sumPos','sumN','frac_pos','frac_neg'])
 pivoted = pivoted.sort_index()
 
@@ -218,12 +197,8 @@ legend_ax = legend_fig.add_subplot(111)
 legend_ax.axis('off')
 handles, labels = ax.get_legend_handles_labels()
 legend_ax.legend(handles, labels, loc='center', fontsize=font_size, frameon=False)
-#legend_fig.savefig('legend_only.png', bbox_inches='tight', pad_inches=0.1)
+# legend_fig.savefig('legend_only.png', bbox_inches='tight', pad_inches=0.1)
 
 plt.tight_layout()
 save_figure_panel("Figure_2", "panel_f_legend", format='png')
 plt.show()
-
-
-
-#R02B-= #9E94B6; R02B+ = #3D296D; R20+=#FDCF92; R20- = #FFE7C1

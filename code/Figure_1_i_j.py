@@ -4,16 +4,15 @@ Created on Mon Jan 13 13:57:27 2025
 
 @author: tgassler
 """
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.ticker import ScalarFormatter
 from statannotations.Annotator import Annotator  # Statistical annotations
 from utilities import load_figure_data, save_figure_panel
 
-#####################
-# Panel i
-#####################
+#############
+# Panel 1 i #
+#############
 
 data = load_figure_data("Figure_1", "panel_i")
 # Define pairs for statistical comparison
@@ -38,8 +37,9 @@ sns.violinplot(
     data=data,
     x='Condition',
     y='Background Normalized RawIntDen',
+    hue='Condition',
     inner='quartile',  # Include quartiles inside the violin
-    scale='width',  # Scale violins by dataset size
+    density_norm='width',  # Scale violins by dataset size
     palette=['orange', 'purple'],  # Custom colors
     linewidth=1  # Edge width of violins
 )
@@ -90,18 +90,13 @@ plt.ylabel("")  # Remove y-axis label
 plt.tight_layout()
 
 save_figure_panel("Figure_1", "panel_i", format='png', dpi=300)
+
 # Show the plot
-#plt.show()
+# plt.show()
 
-################################
-# Panel j
-################################
-
-# Define the file path
-#file_path = "R4_Load_Germ.xlsx"
-
-# Load the Excel file into a pandas DataFrame
-#data = pd.read_excel(file_path)
+#############
+# Panel 1 i #
+#############
 data = load_figure_data("Figure_1", "panel_j")
 # Convert germination rates to percentages
 data['germination rate day 2'] *= 100
@@ -114,7 +109,7 @@ custom_colors = {
 }
 
 # Convert plot size to mm (1 inch = 25.4 mm)
-width_mm =35  # Adjusted width for better scaling
+width_mm = 35  # Adjusted width for better scaling
 height_mm = 40  # Adjusted height for better scaling
 width_in = width_mm / 25.4
 height_in = height_mm / 25.4
@@ -127,7 +122,8 @@ sns.barplot(
     data=data,
     x='Condition',
     y='germination rate day 2',
-    ci=None,  # No error bars
+    errorbar=None,  # No error bars
+    hue='Condition',
     palette=[custom_colors[condition] for condition in data['Condition'].unique()]
 )
 
@@ -157,6 +153,4 @@ plt.xlabel("")  # Remove x-axis label
 plt.tight_layout()
 save_figure_panel("Figure_1", "panel_j", format='png', dpi=300)
 # Show the plot
-#plt.show()
-
-
+# plt.show()

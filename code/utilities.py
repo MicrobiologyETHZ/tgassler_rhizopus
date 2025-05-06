@@ -2,6 +2,10 @@ import yaml
 import pandas as pd
 import json
 import os
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+import matplotlib.pyplot as plt
 
 
 def load_figure_data(figure_name, panel_name, index_col=None):
@@ -38,10 +42,6 @@ def load_figure_data(figure_name, panel_name, index_col=None):
         raise IOError(f"Error loading data from {data_file}: {str(e)}")
 
 
-import yaml
-import os
-import matplotlib.pyplot as plt
-
 def save_figure_panel(figure_name, panel_name,format='svg', dpi=300):
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures_config.yaml")
     with open(config_path, 'r') as file:
@@ -65,20 +65,12 @@ def save_figure_panel(figure_name, panel_name,format='svg', dpi=300):
         raise IOError(f"Error saving figure to {figure_file}: {str(e)}")
 
 
-# This sod can be used to retrieve the AA sequences from the annotation file
-import pandas as pd
-from Bio import SeqIO
-from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
-
-# Depending on which df you are looking at, defines which ones will be extracted
-
-#df = overlap_df.nlargest(10, "log2FoldChange_RP1")
-#df = overlap_df.nsmallest(10, "log2FoldChange_RP1")
-#df = overlap_df #consider which one you are working with
-
-def get_deg_gene_seqs(df, fasta_path="braker.fasta", output_fasta_path="Overlap_Down.fasta"):
-
+def get_deg_gene_seqs(df, fasta_path=None, output_fasta_path="Overlap_Down.fasta"):
+    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures_config.yaml")
+    with open(config_path, 'r') as file:
+        config = yaml.safe_load(file)
+    if not fasta_path:
+        fasta_path = config['fasta_path']
     # "Top10_Up.fasta"; "Top10_Down.fasta";  "Overlap_Up.fasta"; "Overlap_Down.fasta"
     # Parse the FASTA file
     fasta_sequences = {}
@@ -112,26 +104,3 @@ def get_deg_gene_seqs(df, fasta_path="braker.fasta", output_fasta_path="Overlap_
     # Write the target sequences to a new FASTA file
     with open(output_fasta_path, 'w') as output_handle:
         SeqIO.write(target_sequences, output_handle, 'fasta')
-
-
-# Example usage
-if __name__ == "__main__":
-    import numpy as np
-    
-    # Create a sample plot
-    x = np.linspace(0, 10, 100)
-    y = np.sin(x)
-    
-    plt.figure(figsize=(8, 6))
-    plt.plot(x, y, 'b-')
-    plt.title('Sample Sine Wave')
-    plt.xlabel('X')
-    plt.ylabel('Y')
-    plt.grid(True)
-    
-    try:
-        # Save the figure
-        output_path = save_figure_panel("Figure_1", "panel_a")
-        print(f"Figure saved to: {output_path}")
-    except Exception as e:
-        print(f"Error: {e}")

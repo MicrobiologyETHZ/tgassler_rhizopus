@@ -74,10 +74,10 @@ filtered_data = merged_data[merged_data['Condition'].isin(conditions_to_include)
 # Map old condition names to new ones
 condition_mapping = {
     'pIND': 'NH strain',
-    'Rp_R10_pos': 'R10 B+',
-   # 'Rp_R10_neg': 'R10 B-',
-    'Rp_R20_pos': 'R20 B+',
-   # 'Rp_R20_neg': 'R20 B-'
+    'Rp_R10_pos': 'R10 B$_{pos}$',
+    #'Rp_R10_neg': 'R10 B-',
+    'Rp_R20_pos': 'R20 B$_{pos}$',
+    #'Rp_R20_neg': 'R20 B-'
 }
 
 # Apply the mapping to the 'Condition' column

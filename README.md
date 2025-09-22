@@ -35,23 +35,15 @@ All required packages are specified in the `environment.yml` file. The scripts w
    mamba activate rhizopus-env
    ```
 
-## Configuration
-
-The `code/figures_config.yml` file contains the mapping between scripts, input data files, and output figure names. It specifies which data files are required for each script and the naming conventions for the output figures. Please make sure the paths specifed in the config file are pointing to the correct data files.
-
-
 ## Usage
 
 You can run individual scripts to generate specific figure panels:
 
 ```bash
-python code/Figure_1_i_j.py
-```
+cd code/Figure_1
 
-Or run all scripts sequentially to generate all figures:
+python Figure_1_i_j.py
 
-```bash
-for script in code/*.py; do python "$script"; done
 ```
 
 ## License

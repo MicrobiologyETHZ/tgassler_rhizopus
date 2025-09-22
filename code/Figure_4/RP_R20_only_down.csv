@@ -1,0 +1,335 @@
+Geneid,Name,KEGG_Pathway,Description,log2FoldChange
+g1010,prh1,"ko03040,ko04621,map03040,map04621",Helicase associated domain (HA2)  Add an annotation,-0.611435803300258
+g10134,-,-,helix loop helix domain,-0.988227965232991
+g1019,-,"ko04011,map04011",MADS,-0.611715100630753
+g10296,-,-,CotH kinase protein,-0.905783635710641
+g10356,-,-,CotH kinase protein,-0.729472435584008
+g10387,-,-,Sucrase/ferredoxin-like,-0.647891273050876
+g10388,-,-,PPR repeat family,-0.793321171956448
+g10456,pacC,-,zinc finger,-0.950420474165922
+g1052,HAS1,-,DUF4217,-0.720483817127172
+g10533,-,-,Mortierella verticillata NRRL 6337,-0.892960018392445
+g10773,-,-,GAL4-like Zn(II)2Cys6 (or C6 zinc) binuclear cluster DNA-binding domain,-0.925279561721723
+g10907,-,-,-,-0.738581210706812
+g10911,ERB1,-,"Component of the NOP7 complex, which is required for maturation of the 25S and 5.8S ribosomal RNAs and formation of the 60S ribosome",-0.6159330809135
+g10917,-,-,CotH kinase protein,-0.842898402091305
+g10952,-,"ko00620,ko00710,ko01100,ko01120,ko01200,map00620,map00710,map01100,map01120,map01200","Malic enzyme, NAD binding domain",-0.723448852047558
+g11018,-,-,-,-0.775930304188495
+g11095,-,-,"Zinc finger, C2H2 type",-0.684001911395
+g11251,SFL1,-,heat shock factor,-0.722001270087237
+g11255,-,-,RTA1 like protein,-1.01810583737413
+g11262,-,"ko04137,map04137",zz type zinc finger domain-containing protein,-0.68100645077344
+g11320,ESF1,-,Pre-rRNA processing protein Esf1,-0.831633288101426
+g11381,BRX1,-,Brix,-0.659564281282008
+g11621,-,-,GAL4-like Zn(II)2Cys6 (or C6 zinc) binuclear cluster DNA-binding domain,-0.741825792869923
+g11689,-,-,pseudouridine synthase activity,-0.702841657237081
+g11700,-,-,Thioesterase superfamily,-1.06931127665164
+g11821,-,-,Universal stress protein family,-1.05537898045922
+g11849,-,-,VTC domain,-0.620808161904439
+g1187,-,-,Endonuclease/Exonuclease/phosphatase family,-1.03819547154341
+g11965,-,-,-,-0.66201064492673
+g1203,GLY1,"ko00260,ko01100,ko01110,ko01120,ko01130,ko01230,map00260,map01100,map01110,map01120,map01130,map01230",Beta-eliminating lyase,-0.705088920946057
+g12232,TRM61,-,"Catalytic subunit of tRNA (adenine-N(1)-)- methyltransferase, which catalyzes the formation of N(1)- methyladenine at position 58 (m1A58) in initiator methionyl-tRNA",-0.645358799066423
+g12262,NAP1,-,Nucleosome assembly protein (NAP),-0.663336150145322
+g12299,-,-,Transmembrane amino acid transporter protein,-0.878342634380529
+g12304,sof1,-,"WD domain, G-beta repeat",-0.731338671299798
+g12407,-,"ko00630,ko01100,map00630,map01100",AMP-binding enzyme C-terminal domain,-0.647547704310011
+g12549,-,-,DDE superfamily endonuclease,-1.43738712886416
+g12566,-,-,-,-1.00205829434303
+g12648,-,-,Transposase,-2.56112344540104
+g12739,MAK21,-,CBF/Mak21 family,-0.678675470240993
+g12823,-,-,Acetyltransferase (GNAT) domain,-0.899205127118755
+g12867,YAH1,-,Mortierella verticillata NRRL 6337 cytochrome c oxidase subunit XV assembly protein,-0.783711876237903
+g12872,PMC1,-,This magnesium-dependent enzyme catalyzes the hydrolysis of ATP coupled with the transport of calcium,-1.04238376743159
+g12933,TPK2,"ko01522,ko04010,ko04014,ko04020,ko04024,ko04062,ko04113,ko04114,ko04138,ko04140,ko04211,ko04213,ko04261,ko04270,ko04310,ko04340,ko04341,ko04371,ko04530,ko04540,ko04611,ko04713,ko04714,ko04720,ko04723,ko04724,ko04725,ko04726,ko04727,ko04728,ko04740,ko04742,ko04750,ko04910,ko04911,ko04912,ko04913,ko04914,ko04915,ko04916,ko04918,ko04919,ko04921,ko04922,ko04923,ko04924,ko04925,ko04926,ko04927,ko04934,ko04961,ko04962,ko04970,ko04971,ko04976,ko05012,ko05020,ko05030,ko05031,ko05032,ko05110,ko05146,ko05165,ko05166,ko05169,ko05200,ko05203,ko05205,ko05414,map01522,map04010,map04014,map04020,map04024,map04062,map04113,map04114,map04138,map04140,map04211,map04213,map04261,map04270,map04310,map04340,map04341,map04371,map04530,map04540,map04611,map04713,map04714,map04720,map04723,map04724,map04725,map04726,map04727,map04728,map04740,map04742,map04750,map04910,map04911,map04912,map04913,map04914,map04915,map04916,map04918,map04919,map04921,map04922,map04923,map04924,map04925,map04926,map04927,map04934,map04961,map04962,map04970,map04971,map04976,map05012,map05020,map05030,map05031,map05032,map05110,map05146,map05165,map05166,map05169,map05200,map05203,map05205,map05414",Extension to Ser/Thr-type protein kinases,-0.974664892189803
+g12934,-,-,Glycosyl hydrolases family 16,-1.77289657033398
+g13009,-,-,ERAP1-like C-terminal domain,-0.644727201045031
+g13112,-,-,Cytochrome P450,-3.02596952309353
+g13113,-,-,-,-0.625968329843186
+g13192,-,-,-,-0.918616890032789
+g13401,-,-,"Centromere DNA-binding protein complex CBF3 subunit, domain 2",-4.24454407265465
+g13412,-,-,Transposase,-9.11552898180175
+g1348,-,-,Permease family,-0.704471683383036
+g13504,FZO1,"ko04137,ko04214,ko04621,map04137,map04214,map04621",Dynamin family,-0.605687597319234
+g13620,gap1,"ko04810,map04810",GTPase-activator protein for Ras-like GTPases,-0.60190374186873
+g13655,-,-,-,-0.743546066198062
+g13878,-,-,-,-0.996664900249792
+g13922,HAS1,-,DUF4217,-0.795673814727097
+g14025,RPA49,"ko00230,ko00240,ko01100,ko03020,map00230,map00240,map01100,map03020",A49-like RNA polymerase I associated factor,-0.642953002107012
+g14186,PSD1,-,Catalyzes the formation of phosphatidylethanolamine (PtdEtn) from phosphatidylserine (PtdSer). Plays a central role in phospholipid metabolism and in the interorganelle trafficking of phosphatidylserine,-0.64983060891008
+g14228,-,-,GUCT (NUC152) domain,-0.622402328868644
+g14450,SRP40,"ko05130,map05130","SRP40, C-terminal domain",-0.709491860365267
+g14466,-,-,-,-0.677958857856404
+g1451,-,-,-,-0.816763785771961
+g14516,-,-,Life-span regulatory factor,-0.635207894610717
+g1452,-,-,-,-0.653716359763754
+g14658,-,-,HD domain,-0.809683755336792
+g1472,CIT1,"ko00020,ko00630,ko01100,ko01110,ko01120,ko01130,ko01200,ko01210,ko01230,map00020,map00630,map01100,map01110,map01120,map01130,map01200,map01210,map01230","Citrate synthase, C-terminal domain",-1.0191775655809
+g14736,mak16,-,Mak16 protein C-terminal region,-0.885721387360528
+g14776,-,-,-,-0.693913426162958
+g1481,NOG2,"ko03008,map03008",GTPase that associates with pre-60S ribosomal subunits in the nucleolus and is required for their nuclear export and maturation,-0.88307894565619
+g14855,OAC1,-,Mitochondrial carrier protein,-0.637869210043783
+g14858,ESF2,-,pre-rrna-processing protein esf2,-0.617788494129433
+g14869,AUR1,-,PAP2 superfamily,-0.655856690719438
+g15110,-,-,zinc finger,-1.15932399351839
+g15234,-,-,FAD binding domain,-1.26166145082352
+g15253,spn4,-,Septin,-0.659790936663567
+g15261,GLY1,"ko00260,ko01100,ko01110,ko01120,ko01130,ko01230,map00260,map01100,map01110,map01120,map01130,map01230",Beta-eliminating lyase,-1.08769519587212
+g15334,-,-,Thioesterase superfamily,-0.804360675521404
+g15335,-,-,Glycosyl transferase family group 2,-0.695020472224351
+g15413,-,-,GAL4-like Zn(II)2Cys6 (or C6 zinc) binuclear cluster DNA-binding domain,-0.642865737068907
+g15468,-,-,-,-1.30608557917351
+g1547,RPA135,"ko00230,ko00240,ko01100,ko03020,map00230,map00240,map01100,map03020",DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates,-0.749170103237118
+g15549,-,-,Pyridine nucleotide-disulphide oxidoreductase,-0.958337767991864
+g15681,-,-,Xylanase inhibitor N-terminal,-1.1533938953308
+g15719,-,-,Alternative splicing regulator,-0.605100706500504
+g15850,-,-,LysM domain,-1.05367877836852
+g15865,NIP1,"ko03013,map03013","Component of the eukaryotic translation initiation factor 3 (eIF-3) complex, which is involved in protein synthesis of a specialized repertoire of mRNAs and, together with other initiation factors, stimulates binding of mRNA and methionyl-tRNAi to the 40S ribosome. The eIF-3 complex specifically targets and initiates translation of a subset of mRNAs involved in cell proliferation",-0.626992409497974
+g15994,-,-,NmrA-like family,-0.874772815171674
+g1600,-,-,Methyltransferase domain,-0.863193575221261
+g16034,-,-,twin BRCT domain,-0.721015441787091
+g16052,-,-,Mortierella verticillata NRRL 6337,-0.638400133075069
+g16075,ARO4,"ko00400,ko01100,ko01110,ko01130,ko01230,ko02024,map00400,map01100,map01110,map01130,map01230,map02024",Stereospecific condensation of phosphoenolpyruvate (PEP) and D-erythrose-4-phosphate (E4P) giving rise to 3-deoxy-D- arabino-heptulosonate-7-phosphate (DAHP),-0.669581645525031
+g16145,-,-,-,-0.761845298523931
+g16146,-,-,Methyltransferase domain,-0.861395486739876
+g16165,-,-,Domain in the RNA-binding Lupus La protein; unknown function,-0.692185732040568
+g16185,-,-,-,-0.830779940899864
+g16217,-,-,Cytochrome P450,-1.25721140250077
+g16234,NOP1,"ko03008,map03008",Fibrillarin,-0.946813032029437
+g16247,-,"ko05168,map05168",Nop53 (60S ribosomal biogenesis),-0.846886491373821
+g16422,-,-,"Leucine-rich repeats, outliers",-0.748001738254146
+g1647,TIM44,-,"Essential component of the PAM complex, a complex required for the translocation of transit peptide-containing proteins from the inner membrane into the mitochondrial matrix in an ATP-dependent manner",-0.82462871549137
+g16596,-,-,-,-0.850875712806871
+g16656,SYR1,"ko00970,map00970",Arginyl tRNA synthetase N terminal dom,-0.655287301208747
+g16771,-,-,Glycosyl-transferase for dystroglycan,-0.999393129077742
+g16841,-,-,Pentacotripeptide-repeat region of PRORP,-0.665116373315592
+g17064,-,-,Polysaccharide deacetylase,-0.64394047979812
+g17106,kri1,-,KRI1-like family,-0.74367581915004
+g17111,-,-,Polysaccharide deacetylase,-0.774859982488106
+g17293,EFG1,-,rRNA-processing protein Efg1,-0.807616144482766
+g17376,PSE1,-,HEAT-like repeat,-0.785866901555615
+g17413,CRZ1,-,"Zinc finger, C2H2 type",-0.66114780374583
+g1749,NOP16,-,Ribosome biogenesis protein Nop16,-0.629683632265033
+g17525,-,-,Serine-threonine protein phosphatase N-terminal domain,-0.695957670209492
+g1755,-,"ko00500,ko01100,ko04973,map00500,map01100,map04973",Alpha--amylase,-1.64642075240173
+g17551,-,-,"Malic enzyme, NAD binding domain",-0.870418772824276
+g17591,-,-,-,-0.717457146573032
+g17598,-,-,AMMECR1,-0.63522909761488
+g17621,-,-,MIZ/SP-RING zinc finger,-0.796502422288602
+g17623,UPS2,-,PRELI-like family,-0.608182785781747
+g17634,NOP15,-,RNA recognition motif,-1.01049025953258
+g17723,-,"ko00520,ko01100,map00520,map01100",galactokinase activity,-0.60973789857153
+g17784,YLH47,"ko04139,map04139",LETM1-like protein,-0.913530777353216
+g17853,-,-,MYND finger,-0.769654710421503
+g17898,TSR1,-,Protein of unknown function (DUF663),-0.843188845617684
+g17924,-,-,Polysaccharide deacetylase,-0.666500383040512
+g17937,-,-,sulfur dioxygenase activity,-0.674208919941524
+g17949,-,-,Uncharacterized alpha/beta hydrolase domain (DUF2235),-2.01066170013268
+g1802,-,-,Major Facilitator Superfamily,-1.359061952929
+g18028,-,-,helix loop helix domain,-0.989964368209596
+g18045,-,-,Transcription factor,-0.907035599453176
+g18052,-,"ko00380,ko01100,map00380,map01100",Alanine-glyoxylate amino-transferase,-1.03229987198387
+g18093,FPR3,-,FKBP-type peptidyl-prolyl cis-trans isomerase,-0.652755519385954
+g18163,fcf2,-,Fcf2 pre-rRNA processing,-0.813359448912453
+g1826,VTC2,-,Domain of unknown function (DUF202),-0.644439909029421
+g18282,ESF1,-,Pre-rRNA processing protein Esf1,-0.793257501803799
+g1832,-,-,Mortierella verticillata NRRL 6337,-0.829590032469562
+g18340,-,-,RTA1 like protein,-0.763111748846636
+g18573,-,-,-,-0.719904682877456
+g18616,DUS1,-,Dihydrouridine synthase (Dus),-0.664334169837535
+g18695,-,-,-,-0.622565942207743
+g18943,SSA2,"ko03040,ko04010,ko04141,ko04144,ko04213,ko04612,ko04915,ko05134,ko05145,ko05162,ko05164,ko05169,map03040,map04010,map04141,map04144,map04213,map04612,map04915,map05134,map05145,map05162,map05164,map05169",MreB/Mbl protein,-0.727660005565948
+g18975,-,"ko00040,ko01100,map00040,map01100",Specific in hydrolyzing the terminal glycosidic bond of polygalacturonic acid and oligogalacturonates,-0.904941553366189
+g1898,GLY1,"ko00260,ko01100,ko01110,ko01120,ko01130,ko01230,map00260,map01100,map01110,map01120,map01130,map01230",Beta-eliminating lyase,-0.783376387622742
+g19037,-,-,-,-0.619763369488264
+g19043,NMD3,"ko03008,ko03013,map03008,map03013",Acts as an adapter for the XPO1 CRM1-mediated export of the 60S ribosomal subunit,-0.883542605695989
+g19111,AOX2,-,Alternative oxidase,-1.45106391861901
+g19135,-,"ko00040,ko00051,ko01100,map00040,map00051,map01100",Alcohol dehydrogenase GroES-like domain,-0.685622810684448
+g19142,MSS51,-,Zinc-finger of mitochondrial splicing suppressor 51,-0.653653638954188
+g19152,NOP2,-,N-terminal domain of 16S rRNA methyltransferase RsmF,-0.649932650610165
+g19158,-,"ko05322,map05322",Domain in the RNA-binding Lupus La protein; unknown function,-0.609302963088803
+g19217,-,-,NUDIX domain,-0.66212760266392
+g19287,-,-,PX-associated,-0.602100149833708
+g19327,NOC2,-,Noc2p family,-0.696558317672522
+g19336,ACH1,"ko00620,map00620",Acetyl-CoA hydrolase/transferase C-terminal domain,-0.808785474267867
+g19345,-,"ko00561,ko01100,map00561,map01100",Aldo/keto reductase family,-0.635950979495721
+g19390,-,"ko00790,ko01100,map00790,map01100",GTP cyclohydrolase I,-0.752968904761626
+g19581,-,-,Retinoic acid induced 16-like protein,-0.657315926800989
+g19595,-,-,SUR7/PalI family,-0.76602640844126
+g19615,-,-,CotH kinase protein,-1.3251337262446
+g19734,TIM44,-,"Essential component of the PAM complex, a complex required for the translocation of transit peptide-containing proteins from the inner membrane into the mitochondrial matrix in an ATP-dependent manner",-0.654428381558696
+g19829,-,"ko00620,ko00630,ko01100,ko01110,ko01120,ko01200,map00620,map00630,map01100,map01110,map01120,map01200",Malate synthase,-0.937582529304561
+g20008,MAK21,-,CBF/Mak21 family,-0.735301400946776
+g20017,-,-,Sugar (and other) transporter,-0.838710710561496
+g20139,YAH1,-,Mortierella verticillata NRRL 6337 cytochrome c oxidase subunit XV assembly protein,-0.609899107595954
+g20144,PMC1,-,This magnesium-dependent enzyme catalyzes the hydrolysis of ATP coupled with the transport of calcium,-0.706473572007138
+g20173,-,"ko00620,ko00630,ko01100,ko01110,ko01120,ko01200,map00620,map00630,map01100,map01110,map01120,map01200",Malate synthase,-1.28333405639726
+g20230,LIA1,-,"Catalyzes the hydroxylation of the N(6)-(4-aminobutyl)- L-lysine intermediate to form hypusine, an essential post- translational modification only found in mature eIF-5A factor",-0.680881945529979
+g20368,-,-,helix loop helix domain,-0.911028184579178
+g20473,GLY1,"ko00260,ko01100,ko01110,ko01120,ko01130,ko01230,map00260,map01100,map01110,map01120,map01130,map01230",Beta-eliminating lyase,-0.610985807267489
+g2048,-,-,Polysaccharide deacetylase,-1.18207684304509
+g20497,-,"ko00620,ko01100,map00620,map01100",FMN-dependent dehydrogenase,-0.633270759020939
+g20724,CIT1,"ko00020,ko00630,ko01100,ko01110,ko01120,ko01130,ko01200,ko01210,ko01230,map00020,map00630,map01100,map01110,map01120,map01130,map01200,map01210,map01230","Citrate synthase, C-terminal domain",-0.980538994571443
+g20754,TOM20,-,MAS20 protein import receptor,-0.638355788979858
+g20839,RPA135,"ko00230,ko00240,ko01100,ko03020,map00230,map00240,map01100,map03020",DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates,-0.667455465412172
+g20975,-,-,-,-0.851892887786149
+g21259,-,"ko03018,ko04212,ko05152,map03018,map04212,map05152",MreB/Mbl protein,-0.933284536795828
+g21303,nob1,"ko03008,map03008",PIN domain of ribonuclease,-0.861898351888624
+g21430,-,"ko05168,map05168",Nop53 (60S ribosomal biogenesis),-0.988946330876212
+g21445,NOP1,"ko03008,map03008",Fibrillarin,-0.845016991278517
+g21460,srk1,-,"Serine/Threonine protein kinases, catalytic domain",-0.754420932912161
+g21463,-,-,Cytochrome P450,-1.38903318326521
+g21512,-,-,Domain in the RNA-binding Lupus La protein; unknown function,-0.866026077263491
+g21523,-,-,-,-1.40986070275849
+g21537,-,-,Nitronate monooxygenase,-0.894287772784268
+g21588,MEF1,-,"Mitochondrial GTPase that catalyzes the GTP-dependent ribosomal translocation step during translation elongation. During this step, the ribosome changes from the pre-translocational (PRE) to the post-translocational (POST) state as the newly formed A- site-bound peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E sites, respectively. Catalyzes the coordinated movement of the two tRNA molecules, the mRNA and conformational changes in the ribosome",-0.899127105552202
+g21594,SSE1,"ko04141,ko04530,ko04612,map04141,map04530,map04612",MreB/Mbl protein,-0.609535915575296
+g21658,HAS1,-,DUF4217,-0.909090760403868
+g21820,HAS1,-,DUF4217,-0.756292737274882
+g21832,SSE1,"ko04141,ko04530,ko04612,map04141,map04530,map04612",MreB/Mbl protein,-0.749247560180307
+g21839,MEF1,-,"Mitochondrial GTPase that catalyzes the GTP-dependent ribosomal translocation step during translation elongation. During this step, the ribosome changes from the pre-translocational (PRE) to the post-translocational (POST) state as the newly formed A- site-bound peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E sites, respectively. Catalyzes the coordinated movement of the two tRNA molecules, the mRNA and conformational changes in the ribosome",-0.893273572665528
+g21854,nop56,"ko03008,map03008",NOSIC (NUC001) domain,-0.723335302456851
+g21910,-,-,"Centromere DNA-binding protein complex CBF3 subunit, domain 2",-1.47286127014067
+g22098,rio1,"ko03008,map03008",RIO-like kinase,-0.651834541721048
+g22114,hob1,"ko04144,ko04666,map04144,map04666",BAR domain,-0.697939698903678
+g22206,-,-,FAD binding domain,-1.43361631248044
+g22374,rgs1,"ko04011,map04011",Regulator of G protein signalling domain,-0.744913057313575
+g2244,LTV1,-,Low temperature viability protein,-1.12588248209196
+g2251,MET7,"ko00790,ko01100,ko01523,map00790,map01100,map01523","Catalyzes conversion of folates to polyglutamate derivatives allowing concentration of folate compounds in the cell and the intracellular retention of these cofactors, which are important substrates for most of the folate-dependent enzymes that are involved in one-carbon transfer reactions involved in purine, pyrimidine and amino acid synthesis",-0.623020706856659
+g22513,-,-,CotH kinase protein,-0.690796557583493
+g22568,pacC,-,zinc finger,-0.877245632883448
+g22857,-,"ko00040,ko01100,map00040,map01100",Aldo/keto reductase family,-0.614521067457926
+g22871,-,-,-,-0.73405944545389
+g22960,ras2,"ko01521,ko01522,ko04010,ko04012,ko04013,ko04014,ko04015,ko04024,ko04062,ko04068,ko04071,ko04072,ko04137,ko04138,ko04140,ko04150,ko04151,ko04210,ko04211,ko04213,ko04214,ko04218,ko04320,ko04360,ko04370,ko04371,ko04510,ko04530,ko04540,ko04550,ko04611,ko04650,ko04660,ko04662,ko04664,ko04670,ko04714,ko04720,ko04722,ko04725,ko04726,ko04730,ko04810,ko04910,ko04912,ko04914,ko04915,ko04916,ko04917,ko04919,ko04921,ko04926,ko04933,ko04934,ko04960,ko04972,ko05034,ko05160,ko05161,ko05165,ko05166,ko05167,ko05200,ko05203,ko05205,ko05206,ko05210,ko05211,ko05212,ko05213,ko05214,ko05215,ko05216,ko05218,ko05219,ko05220,ko05221,ko05223,ko05224,ko05225,ko05226,ko05230,ko05231,map01521,map01522,map04010,map04012,map04013,map04014,map04015,map04024,map04062,map04068,map04071,map04072,map04137,map04138,map04140,map04150,map04151,map04210,map04211,map04213,map04214,map04218,map04320,map04360,map04370,map04371,map04510,map04530,map04540,map04550,map04611,map04650,map04660,map04662,map04664,map04670,map04714,map04720,map04722,map04725,map04726,map04730,map04810,map04910,map04912,map04914,map04915,map04916,map04917,map04919,map04921,map04926,map04933,map04934,map04960,map04972,map05034,map05160,map05161,map05165,map05166,map05167,map05200,map05203,map05205,map05206,map05210,map05211,map05212,map05213,map05214,map05215,map05216,map05218,map05219,map05220,map05221,map05223,map05224,map05225,map05226,map05230,map05231",Ras subfamily of RAS small GTPases,-0.716658318095416
+g23111,cms1,-,U3-containing 90S pre-ribosomal complex subunit,-1.11610468641589
+g23113,-,-,-,-0.82759162363266
+g23147,SAS10,-,Sas10 C-terminal domain,-0.704885839032508
+g2315,-,-,Protein tyrosine kinase,-0.613638199325586
+g23271,BMS1,"ko03008,map03008",Ribosome biogenesis protein bms1,-0.695566611512743
+g23273,-,-,Xylanase inhibitor N-terminal,-0.831056524034013
+g2339,-,-,Glycosyl-transferase for dystroglycan,-1.58239426247477
+g23410,-,-,-,-0.973916360399756
+g23446,-,-,-,-1.74128672914313
+g23447,-,-,-,-1.45612381144328
+g23462,-,"ko00260,map00260",Putative serine dehydratase domain,-0.743487642503803
+g23471,-,-,Mortierella verticillata NRRL 6337,-1.23765693298809
+g23536,-,-,Mortierella verticillata NRRL 6337,-0.984429766122249
+g23550,-,-,alpha/beta hydrolase fold,-1.38174307569716
+g23558,-,-,LysM domain,-1.31033779686317
+g23578,NOP9,-,Pumilio-like repeats,-0.6341418414252
+g23686,-,-,zinc finger,-1.36172088749752
+g24216,-,-,-,-0.615013775816998
+g24230,SRP40,"ko05130,map05130","SRP40, C-terminal domain",-0.690056699123799
+g2459,SYR1,"ko00970,map00970",Arginyl tRNA synthetase N terminal dom,-0.796038589392109
+g2480,-,-,Myb-like DNA-binding domain,-1.2642618391654
+g2522,-,-,-,-0.758645773681206
+g2534,-,-,histone H2A-K13 ubiquitination,-0.627561515365872
+g2609,-,-,Ser-Thr-rich glycosyl-phosphatidyl-inositol-anchored membrane family,-1.0489697465853
+g2801,-,-,COPI associated protein,-0.908102159041983
+g2852,KRR1,-,Required for 40S ribosome biogenesis. Involved in nucleolar processing of pre-18S ribosomal RNA and ribosome assembly,-0.660130037098164
+g2871,-,-,Allomyces macrogynus ATCC 38327,-0.733134626498045
+g2946,-,-,-,-0.706245116463084
+g3153,-,-,Mortierella verticillata NRRL 6337,-0.677385689180852
+g3382,PSD2,"ko00564,ko01100,ko01110,map00564,map01100,map01110",Catalyzes the formation of phosphatidylethanolamine (PtdEtn) from phosphatidylserine (PtdSer). Plays a central role in phospholipid metabolism and in the interorganelle trafficking of phosphatidylserine,-0.643599084745678
+g3499,sof1,-,"WD domain, G-beta repeat",-0.8829350570502
+g3596,-,"ko00630,ko01100,map00630,map01100",AMP-binding enzyme C-terminal domain,-0.603193492960825
+g3622,-,-,Transmembrane amino acid transporter protein,-1.00610357343535
+g3627,-,-,Mitochondrial carrier protein,-0.626295224343011
+g3666,NAP1,-,Nucleosome assembly protein (NAP),-0.606519637094153
+g3741,IDP1,"ko00020,ko00480,ko00720,ko01100,ko01110,ko01120,ko01130,ko01200,ko01210,ko01230,ko04146,map00020,map00480,map00720,map01100,map01110,map01120,map01130,map01200,map01210,map01230,map04146",Isocitrate/isopropylmalate dehydrogenase,-0.621600907245998
+g381,-,-,-,-0.793884007610071
+g3963,-,-,-,-0.803995776338941
+g406,SSA2,"ko03040,ko04010,ko04141,ko04144,ko04213,ko04612,ko04915,ko05134,ko05145,ko05162,ko05164,ko05169,map03040,map04010,map04141,map04144,map04213,map04612,map04915,map05134,map05145,map05162,map05164,map05169",MreB/Mbl protein,-0.656375269050991
+g4070,-,"ko04010,ko04726,ko05418,map04010,map04726,map05418","Dual specificity phosphatase, catalytic domain",-0.624608045605588
+g4097,-,-,Universal stress protein family,-1.23122816851239
+g4169,DBP4,-,DUF4217,-0.85855666922053
+g4290,-,-,Permease family,-0.655862471427797
+g4327,zuo1,"ko00072,ko00280,ko00281,ko00650,ko01100,ko04146,map00072,map00280,map00281,map00650,map01100,map04146",Ribosome-associated complex head domain,-0.635503336647657
+g447,RIB7,"ko00740,ko01100,map00740,map01100",RibD C-terminal domain,-0.801904599283476
+g4600,-,-,SUR7/PalI family,-0.856512077171568
+g4603,-,-,Glycosyl transferases group 1,-0.662134193018179
+g4731,-,-,-,-1.01834680561764
+g4762,SAS10,-,Sas10 C-terminal domain,-0.623756499505898
+g4851,-,-,-,-0.923425142445215
+g4886,-,-,mhyt domain,-0.670720799138781
+g504,-,-,-,-0.605478582706479
+g5055,-,-,-,-1.48493927829473
+g510,NMD3,"ko03008,ko03013,map03008,map03013",Acts as an adapter for the XPO1 CRM1-mediated export of the 60S ribosomal subunit,-0.64448137178957
+g5105,-,-,-,-0.781322818999735
+g5148,-,-,alpha/beta hydrolase fold,-1.04990470853049
+g5161,-,-,LysM domain,-1.23124672581896
+g5425,-,-,Polysaccharide deacetylase,-0.8331414660535
+g544,QNS1,"ko00760,ko01100,map00760,map01100",NAD synthase,-0.621680334520381
+g545,SPB1,-,Required for proper assembly of pre-ribosomal particles during the biogenesis of the 60S ribosomal subunit,-0.983721005653433
+g5470,kri1,-,KRI1-like family,-0.656713085013743
+g5475,-,-,Polysaccharide deacetylase,-1.08242821086384
+g5477,-,-,Middle domain of eukaryotic initiation factor 4G (eIF4G),-0.645203312563006
+g5620,puf6,-,CPL (NUC119) domain,-0.658290567205288
+g5629,ebp2,-,Eukaryotic rRNA processing protein EBP2,-0.914919571179633
+g5651,-,"ko00520,ko00531,ko01100,ko01501,map00520,map00531,map01100,map01501",Glycosyl hydrolase family 3 N terminal domain,-0.691551517379546
+g5654,DBP9,-,helicase superfamily c-terminal domain,-0.740031370822634
+g573,AOX2,-,Alternative oxidase,-1.68032008819042
+g5764,KCH1,-,Mortierella verticillata NRRL 6337,-2.98051822692227
+g5772,CRZ1,-,"Zinc finger, C2H2 type",-0.610561298118943
+g5801,CIC1,-,Ribosomal protein L1p/L10e family,-0.77787237175968
+g5856,-,-,-,-0.787132708187492
+g5881,-,-,Serine-threonine protein phosphatase N-terminal domain,-0.684783101227647
+g5904,-,-,"Malic enzyme, NAD binding domain",-0.967733561923578
+g5939,-,-,-,-0.676705712924206
+g5966,UPS2,-,PRELI-like family,-0.815200364249173
+g5980,NOP15,-,RNA recognition motif,-0.951186956926686
+g6011,IPP1,"ko00190,map00190",Inorganic pyrophosphatase,-0.882381954744766
+g6258,-,"ko00073,map00073",Cytochrome P450,-0.876284181803438
+g6264,TSR1,-,Protein of unknown function (DUF663),-0.785226913543328
+g6290,-,-,Polysaccharide deacetylase,-0.739847727656039
+g6292,-,-,-,-1.01431449720099
+g6304,-,-,sulfur dioxygenase activity,-0.84321093758291
+g6321,-,-,Uncharacterized alpha/beta hydrolase domain (DUF2235),-3.68551679188612
+g635,MSS116,-,"Type III restriction enzyme, res subunit",-1.14916387540184
+g6375,-,-,helix loop helix domain,-0.935557298093679
+g6420,-,-,"Catalytic subunit of the queuine tRNA-ribosyltransferase (TGT) that catalyzes the base-exchange of a guanine (G) residue with queuine (Q) at position 34 (anticodon wobble position) in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr), resulting in the hypermodified nucleoside queuosine (7-(((4,5-cis- dihydroxy-2-cyclopenten-1-yl)amino)methyl)-7-deazaguanosine). Catalysis occurs through a double-displacement mechanism. The nucleophile active site attacks the C1' of nucleotide 34 to detach the guanine base from the RNA, forming a covalent enzyme-RNA intermediate. The proton acceptor active site deprotonates the incoming queuine, allowing a nucleophilic attack on the C1' of the ribose to form the product",-0.768205615357045
+g6424,-,-,FORKHEAD,-0.914200527885878
+g645,RCF2,-,Hypoxia induced protein conserved region,-0.654105477666024
+g6677,NOP13,-,RNA recognition motif,-0.643302885885939
+g6679,-,"ko03018,ko04212,ko05152,map03018,map04212,map05152",MreB/Mbl protein,-0.884918308430732
+g6874,-,-,Transposase,-0.764923358899527
+g7004,FZO1,"ko04137,ko04214,ko04621,map04137,map04214,map04621",Dynamin family,-0.731700680369991
+g7105,-,"ko00230,ko00240,ko01100,ko03020,map00230,map00240,map01100,map03020",SHS2 domain found in N terminus of Rpb7p/Rpc25p/MJ0397,-0.650945893231411
+g7201,-,-,Major Facilitator Superfamily,-1.72431649598097
+g7225,VTC2,-,Domain of unknown function (DUF202),-0.734306775228024
+g7229,-,"ko03008,map03008",RNA 3'-terminal phosphate cyclase,-0.852853113921824
+g7306,-,-,Major Facilitator Superfamily,-0.701416543942202
+g7473,-,-,WW domain,-0.784183171078876
+g7665,LTV1,-,Low temperature viability protein,-0.814500200638121
+g7704,-,-,-,-0.635257545113209
+g7883,-,-,helix loop helix domain,-0.878817519763908
+g791,-,"ko03008,map03008",EXOIII|zinc ion binding,-0.807799376290402
+g7952,-,-,Mortierella verticillata NRRL 6337,-0.719535237144959
+g796,ACH1,"ko00620,map00620",Acetyl-CoA hydrolase/transferase C-terminal domain,-0.657705919995897
+g8047,DBP4,-,DUF4217,-0.822030138500291
+g8171,-,-,Permease family,-1.01026980736014
+g8238,-,-,CotH kinase protein,-0.699084222388247
+g8353,-,-,Set domain-containing protein,-0.628385450327434
+g8515,MRPL6,"ko03010,map03010",Ribosomal protein L6,-0.62451916217247
+g860,IDH1,"ko00020,ko01100,ko01110,ko01120,ko01130,ko01200,ko01210,ko01230,map00020,map01100,map01110,map01120,map01130,map01200,map01210,map01230","Mortierella verticillata NRRL 6337 isocitrate dehydrogenase NAD subunit 1, mitochondrial (376 aa)",-0.62857332347857
+g8671,NOG1,"ko03008,map03008",Involved in the biogenesis of the 60S ribosomal subunit,-0.623559763289538
+g8747,-,-,Xylanase inhibitor N-terminal,-0.835029880259215
+g8794,-,-,endonuclease,-0.674881436178057
+g8815,-,-,Major Facilitator Superfamily,-1.02013738316971
+g8928,SNQ2,"ko02010,map02010",ABC-transporter extracellular N-terminal,-0.865223439685301
+g8988,kap123,-,Importin-beta N-terminal domain,-0.645457922815236
+g9036,-,-,NmrA-like family,-0.769766085437581
+g9181,utp13,"ko03008,map03008",Utp13 specific WD40 associated domain,-0.641657220342183
+g9207,-,-,-,-0.605971919194712
+g9214,-,-,"Zinc finger, C2H2 type",-1.16106982138883
+g9275,-,-,FAD binding domain,-0.899820713491657
+g9293,TEF3,-,Mortierella verticillata NRRL 6337,-1.08330478505581
+g9376,hob1,"ko04144,ko04666,map04144,map04666",BAR domain,-0.875175592019186
+g9410,-,-,retrotransposable element Tf2 155 kDa protein type 1-like,-2.10225645953436
+g9444,-,-,Ribosomal proteins 50S L24/mitochondrial 39S L24,-0.605236692827522
+g9488,-,-,Pentacotripeptide-repeat region of PRORP,-0.808438009908898
+g9717,TPK2,"ko01522,ko04010,ko04014,ko04020,ko04024,ko04062,ko04113,ko04114,ko04138,ko04140,ko04211,ko04213,ko04261,ko04270,ko04310,ko04340,ko04341,ko04371,ko04530,ko04540,ko04611,ko04713,ko04714,ko04720,ko04723,ko04724,ko04725,ko04726,ko04727,ko04728,ko04740,ko04742,ko04750,ko04910,ko04911,ko04912,ko04913,ko04914,ko04915,ko04916,ko04918,ko04919,ko04921,ko04922,ko04923,ko04924,ko04925,ko04926,ko04927,ko04934,ko04961,ko04962,ko04970,ko04971,ko04976,ko05012,ko05020,ko05030,ko05031,ko05032,ko05110,ko05146,ko05165,ko05166,ko05169,ko05200,ko05203,ko05205,ko05414,map01522,map04010,map04014,map04020,map04024,map04062,map04113,map04114,map04138,map04140,map04211,map04213,map04261,map04270,map04310,map04340,map04341,map04371,map04530,map04540,map04611,map04713,map04714,map04720,map04723,map04724,map04725,map04726,map04727,map04728,map04740,map04742,map04750,map04910,map04911,map04912,map04913,map04914,map04915,map04916,map04918,map04919,map04921,map04922,map04923,map04924,map04925,map04926,map04927,map04934,map04961,map04962,map04970,map04971,map04976,map05012,map05020,map05030,map05031,map05032,map05110,map05146,map05165,map05166,map05169,map05200,map05203,map05205,map05414",Extension to Ser/Thr-type protein kinases,-1.10157840018545
+g9719,-,-,Glycosyl hydrolases family 16,-1.48828388177737
+g9819,-,-,F/Y-rich N-terminus,-1.66643874514736
+g9891,-,-,Cytochrome P450,-2.39723232362855
+g9970,-,-,-,-0.833581710172383

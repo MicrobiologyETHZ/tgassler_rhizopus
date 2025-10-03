@@ -42,7 +42,7 @@ bar_colors = [color_map.get(cond, 'gray') for cond in df_results['condition']]
 plt.figure(figsize=(width_in, height_in), dpi=1200)
 plt.bar(df_results['condition'], df_results['germination_rate'], color=bar_colors)
 
-plt.ylabel('Germination Rate (%)')
+plt.ylabel('Germination success (%)')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 

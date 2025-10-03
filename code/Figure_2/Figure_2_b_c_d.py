@@ -91,17 +91,17 @@ def plot_custom_bars(ax, df, y_column, ylabel, palette, lines=['B++', 'B+']):
 
 # ========== MAIN PLOTS ==========
 fig1, ax1 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
-plot_custom_bars(ax1, df, 'germination rate day 2', 'Germination Rate (%)', palette)
+plot_custom_bars(ax1, df, 'germination rate day 2', 'Germination success (%)', palette)
 plt.tight_layout()
-fig1.savefig("Figure_2_b_germination_rate.png", bbox_inches='tight')
+fig1.savefig("Figure_2_b_germination_success.png", bbox_inches='tight')
 
 fig2, ax2 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
-plot_custom_bars(ax2, df, 'Abundance', 'Positive Fraction (%)', palette)
+plot_custom_bars(ax2, df, 'Abundance', 'Positive fraction (%)', palette)
 plt.tight_layout()
 fig2.savefig("Figure_2_c_abundance.png", bbox_inches='tight')
 
 fig3, ax3 = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
-plot_custom_bars(ax3, df, 'Fitness Index', 'Fitness Index (%)', palette)
+plot_custom_bars(ax3, df, 'Fitness Index', 'Fitness index (%)', palette)
 plt.tight_layout()
 fig3.savefig("Figure_2_d_fitness_index.png", bbox_inches='tight')
 

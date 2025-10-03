@@ -93,7 +93,7 @@ for idx, (condition, df_cond) in enumerate(growth_rate_dfs.items()):
 plt.xticks(range(len(growth_rate_dfs)), growth_rate_dfs.keys(), rotation=45, ha='right')
 
 # 8) Y-axis label and range
-plt.ylabel('Fungal Doubling Time (min)')
+plt.ylabel('Fungal doubling time (min)')
 plt.ylim(70, 275)
 
 plt.tight_layout()

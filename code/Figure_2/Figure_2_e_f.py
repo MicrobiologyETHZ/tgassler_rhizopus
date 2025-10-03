@@ -76,7 +76,7 @@ ax1.set_ylim(1, 100)   # Set limits appropriately (avoid zero for log-scale)
 ax1.yaxis.set_major_formatter(mpl.ticker.ScalarFormatter())  # Maintain percentage format
 
 ax1.set_xlabel('Day', fontsize=font_size)
-ax1.set_ylabel('Germination Rate (%)', fontsize=font_size)
+ax1.set_ylabel('Germination success (%)', fontsize=font_size)
 ax1.tick_params(axis='both', which='major', labelsize=font_size)
 ax1.set_ylim(0, 100)
 ax1.set_xticks(x_positions)
@@ -186,7 +186,7 @@ ax.bar(
 
 # Axis labeling
 ax.set_xlabel('Day', fontsize=font_size)
-ax.set_ylabel('Positive Rate (%)', fontsize=font_size)
+ax.set_ylabel('Positive fraction (%)', fontsize=font_size)
 ax.set_xticks(x)
 ax.set_xticklabels(days, fontsize=font_size)
 ax.set_ylim(0, 110)  # a bit above 100% for clarity

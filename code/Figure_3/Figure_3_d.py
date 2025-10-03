@@ -130,7 +130,7 @@ for i, condition in enumerate(unique_conditions):
     axes[i].set_xlabel('')
 
 # Shared y-axis label on the first subplot
-axes[0].set_ylabel('Bacterial Load (a.u.)')
+axes[0].set_ylabel('Bacterial load (a.u.)')
 
 # ========== 5) SCIENTIFIC NOTATION & LAYOUT ADJUSTMENTS ==========
 # Force scientific notation on Y-axis for all subplots

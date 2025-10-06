@@ -5,9 +5,7 @@
 This repository contains a collection of Python scripts for generating figure panels for the following publication: 
 
 ```
-Gassler, T., ... (2025). Induced endosymbiosis between Rhizopus microsporus and Ralstonia pickettii indicates a shift from antagonism to commensalism. Journal Name, Volume(Issue), Pages.
-DOI: https://doi.org/xx.xxxx/xxxxx
-
+Gassler, T., et al.(2025). Induced endosymbiosis between Rhizopus microsporus and Ralstonia pickettii indicates a shift from antagonism to commensalism.
 ```
 
 ## Requirements
